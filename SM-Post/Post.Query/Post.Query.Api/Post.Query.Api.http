@@ -1,0 +1,6 @@
+@Post.Query.Api_HostAddress = http://localhost:5073
+
+GET {{Post.Query.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
