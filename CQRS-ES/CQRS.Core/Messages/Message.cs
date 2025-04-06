@@ -1,3 +1,5 @@
+using System;
+
 namespace CQRS.Core.Messages
 {
     public abstract class Message
