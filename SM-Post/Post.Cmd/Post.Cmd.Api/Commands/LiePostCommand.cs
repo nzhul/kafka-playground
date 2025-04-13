@@ -3,7 +3,7 @@ using CQRS.Core.Commands;
 namespace Post.Cmd.Api.Commands
 {
 
-    public class LiePostCommand : BaseCommand
+    public class LikePostCommand : BaseCommand
     {
 
     }

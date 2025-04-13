@@ -1,3 +1,4 @@
+using System;
 using CQRS.Core.Commands;
 
 namespace Post.Cmd.Api.Commands
@@ -5,7 +6,8 @@ namespace Post.Cmd.Api.Commands
 
     public class RemoveCommentCommand : BaseCommand
     {
-        public string CommentId { get; set; }
+        public Guid CommentId { get; set; }
+
         public string Username { get; set; }
     }
 }
