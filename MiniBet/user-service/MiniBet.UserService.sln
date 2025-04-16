@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBet.UserService.API", "MiniBet.UserService.API\MiniBet.UserService.API.csproj", "{CD91045B-1070-4219-A4CC-CD289EE35B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBet.UserService.Domain", "MiniBet.UserService.Domain\MiniBet.UserService.Domain.csproj", "{C4EA517C-AA0F-40C6-BA47-C447C2C594BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBet.UserService.Infrastructure", "MiniBet.UserService.Infrastructure\MiniBet.UserService.Infrastructure.csproj", "{49889E65-2F1B-48E3-B932-1C2B7DB3C7A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD91045B-1070-4219-A4CC-CD289EE35B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD91045B-1070-4219-A4CC-CD289EE35B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD91045B-1070-4219-A4CC-CD289EE35B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD91045B-1070-4219-A4CC-CD289EE35B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EA517C-AA0F-40C6-BA47-C447C2C594BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EA517C-AA0F-40C6-BA47-C447C2C594BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EA517C-AA0F-40C6-BA47-C447C2C594BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EA517C-AA0F-40C6-BA47-C447C2C594BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49889E65-2F1B-48E3-B932-1C2B7DB3C7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49889E65-2F1B-48E3-B932-1C2B7DB3C7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49889E65-2F1B-48E3-B932-1C2B7DB3C7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49889E65-2F1B-48E3-B932-1C2B7DB3C7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
